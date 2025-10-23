@@ -1,0 +1,89 @@
+html,body{
+    background:linear-gradient(135deg, #567491, #b7c2cc);
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-attachment: fixed;
+}
+/* body::after{
+    content: "";
+    position: fixed;
+    inset: 0;
+    background: url(/webdevpro/css/images/noise.svg);
+     background-repeat: repeat;   /* makes it tile */
+     /* background-size: auto;       /* default, but you can adjust */
+    /* opacity: 0.05;
+    pointer-events: none;
+} */ 
+.container {
+background: linear-gradient(145deg, #c0c5ca, #a9afb5);
+
+    /* display: flex; */
+    /* justify-content: center;
+    align-items: center; */
+    /* width: 500px; */
+    /* flex-direction: column; */
+    padding: 15px;
+    margin-bottom: 10px;
+    /* text-align: center; */
+    box-shadow: 0 12px 30px rgba(0,0,0,0.25);
+    border-radius: 20px;
+
+
+}
+img {
+    width: 400px;
+    margin: -50px;
+    margin-left: -100px;
+    margin-right: -100px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  /* box-shadow:0 15px 25px rgba(0,0,0,0.3); */
+  border-radius: 15px;
+    
+}
+img:hover{
+     transform: rotateY(10deg) rotateX(5deg) scale(1.05);
+  /* box-shadow: 0 25px 40px rgba(0,0,0,0.5); */
+}
+h1 {
+    color: rgb(3, 3, 3);
+    text-shadow: 2px 1px 0.2px rgb(76, 75, 75);
+}
+p {
+    color: #2162a1;  
+    margin-top: -20px;  
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    gap: 4px;
+    cursor:wait;
+}
+button{
+    width: 50%;
+    border-radius: 8px;
+    border: solid 1px black;
+    box-shadow: 2px 2px 2px rgb(76, 74, 74);
+    }
+.cart{
+    background-color: #ffd814;;
+}
+.purchase{
+    background-color: #ffa41c;
+}
+.cart:hover{
+    background-color: #e3c012;
+    transition: ease-in-out 0.4s;
+}
+.purchase:hover{
+    background-color:#e58e0c;
+    transition: ease-in-out 0.4s;
+}
+
+
+
